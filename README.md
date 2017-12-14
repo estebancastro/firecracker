@@ -11,7 +11,7 @@ This project is designed to create a series of Docker containers running CraftCM
 ## Get Started
 
 ### Setup .env file
-Rename **example_env** to **.env** and set the values. The values are as follows:
+Rename ```example_env``` to ```.env``` and set the values. The values are as follows:
 
 * **MYSQL_ROOT_PASSWORD** - the root password for MySQL
 * **MYSQL_USER** - the user your site will use
@@ -21,4 +21,4 @@ Rename **example_env** to **.env** and set the values. The values are as follows
 * **SSH_KEY** - the path to the SSH key for the created user
 
 ### Run
-Run the script: /vagrant/.development_build.sh
+Run the script: ```/vagrant/.development_build.sh```

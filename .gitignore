@@ -55,3 +55,7 @@ Thumbs.db
 /ansible/*.retry
 # /ansible/roles/*
 # !/ansible/roles/common
+
+# Project #
+###########
+.env

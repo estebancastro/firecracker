@@ -1,1 +1,0 @@
-{"virtualbox":{"/srv/www":{"guestpath":"/srv/www","hostpath":"/Users/esteban/Work/firecracker/vagrant/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/esteban/Work/firecracker/vagrant","disabled":false,"__vagrantfile":true}}}

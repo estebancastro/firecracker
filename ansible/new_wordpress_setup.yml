@@ -11,9 +11,9 @@
     - { role: docker_build, service: backend, tags: ['backend'], exec_files: ['site-normal', 'site-upgrade', 'site-upgrade', 'start-nginx.sh'] }
     - { role: docker_build, service: varnish, tags: [], exec_files: ['start-varnish.sh'] }
     - { role: docker_build, service: frontend, tags: [], exec_files: ['start-nginx.sh'] }
-    # - wordpress
-    # - new_wordpress
-  tasks:
+  #   - wordpress
+  #   - new_wordpress
+  # tasks:
     - { include: tasks/docker-compose_rebuild.yml, service: data, tags: [] }
     - { include: tasks/docker-compose_rebuild.yml, service: frontend, tags: [] }
     - { include: tasks/docker-compose_rebuild.yml, service: varnish, tags: ['backend'] }
